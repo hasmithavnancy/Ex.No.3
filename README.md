@@ -1,135 +1,90 @@
-# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### Aim: 
-To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 1 with Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting  
+### NAME: HASMITHA V NANCY
+### REGISTER NUMBER : 212224040111
+### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word ### 
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
-Procedure:
-### 1. Define the Scenario and Use Case  
-- **Scenario:**  
-   In today’s fast-paced lifestyle, people are increasingly health-conscious and want to know the **nutritional information** of the food they consume. Restaurants, cafeterias, and online food services require an automated system to present food menu details clearly and attractively.  
+### Procedure:
+### Prompting
+### 1. Straightforward Prompts
 
-- **Use Case:**  
-   The system will generate a **nutritional chart** for food menus that includes calories, protein, fat, and allergens. This structured representation helps customers make informed choices.  
+### Prompt:
+"Provide the steps to troubleshoot when my washing machine is not turning on."
 
-- **Target Audience:**  
-   - Restaurants and Cafeterias  
-   - Online Food Delivery Platforms  
-   - Health-conscious customers  
+### ChatGPT:
 
----
+Check if the power cord is plugged in.
 
-### 2. Main Objectives  
-- 📊 Provide a **structured nutritional chart** for various dishes.  
-- 🍴 Help users easily identify **ingredients, calorie intake, and proteins**.  
-- ⚠️ Highlight **allergen information** for customer safety.  
-- 🌟 Present data in a **colorful and user-friendly format**.  
+Ensure the switch and circuit breaker are working.
 
----
+Verify the washing machine door is closed properly.
 
-### 3. Identify Prompt Patterns for Each Design Aspect  
+Try resetting the machine if it has a reset button.
 
-### 1. Define the Scenario and Use Case  
-- **Scenario:**  
-   In today’s fast-paced lifestyle, people are increasingly health-conscious and want to know the **nutritional information** of the food they consume. Restaurants, cafeterias, and online food services require an automated system to present food menu details clearly and attractively.  
+If the issue persists, contact service support.
 
-- **Use Case:**  
-   The system will generate a **nutritional chart** for food menus that includes calories, protein, fat, and allergens. This structured representation helps customers make informed choices.  
+### Gemini:
 
-- **Target Audience:**  
-   - Restaurants and Cafeterias  
-   - Online Food Delivery Platforms  
-   - Health-conscious customers  
+Make sure the machine is connected to power.
 
----
+Confirm the socket is working by testing with another device.
 
-### 2. Main Objectives  
-- 📊 Provide a **structured nutritional chart** for various dishes.  
-- 🍴 Help users easily identify **ingredients, calorie intake, and proteins**.  
-- ⚠️ Highlight **allergen information** for customer safety.  
-- 🌟 Present data in a **colorful and user-friendly format**.  
+Restart or unplug and plug back the machine.
 
----
+Call customer service if still not working.
 
-### 3. Identify Prompt Patterns for Each Design Aspect  
+### 2. Tabular Format Prompting
 
-#### 💡 Idea Generation Prompts
-- **Prompt:** “What features should be included in a food menu nutritional chart in tabular format?”  
-- **Generated Ideas:**  
-  - Dish name with short description and main ingredients.  
-  - Nutritional values: **Calories, Protein, Fat, Carbohydrates, Fiber**.  
-  - Special highlights for **allergen information** (like gluten, dairy, nuts, soy).  
-  - A standardized **table structure** for quick comparison.  
-  - Symbols or color highlights for health categories (✔ High Protein, 🟢 Low Fat).  
-  - Add a column for **“Dietary Suitability”** (e.g., Vegan, Vegetarian, Keto-friendly).  
+### Prompt:
+"Provide a table comparing warranty support vs. non-warranty support for our products."
 
----
+### ChatGPT:
 
-#### 👩‍💻 Persona and Context Prompts
-- **Prompt:** “What should the nutritional chart convey to the end-user?”  
-- **Generated Context:**  
-  - Customers must feel the chart is **reliable and accurate**.  
-  - It should support **dietary decision-making** (weight loss, bodybuilding, etc.).  
-  - The design should be **simple** so even non-technical users understand it.  
-  - Provide **trust and transparency** from the restaurant or provider.  
-  - Support **quick scanning** of dishes (people don’t read long paragraphs).  
-  - Encourage healthier choices by showing comparisons side by side.  
+Feature	Warranty Support	Non-Warranty Support
+Repair Cost	Free or minimal (covered)	Paid by customer
+Parts Replacement	Free if covered in warranty	Paid replacement
+Service Time	Priority support	Standard queue
 
----
+### Gemini:
 
-#### 🎨 Structural / Formatting Prompts
-- **Prompt:** “How should the nutritional data be displayed for maximum clarity?”  
-- **Generated Structures:**  
-  - A **clean, tabular format** with consistent alignment.  
-  - Use **headers** for each nutritional category.  
-  - Keep **units standardized** (kcal, grams).  
-  - Separate **allergens** in a distinct column or highlight them.  
-  - Optionally include **icons** for vegetarian 🌱, vegan 🥗, or non-veg 🍗 dishes.  
+Feature	Warranty Support	Non-Warranty Support
+Repair Cost	Covered (no extra pay)	Customer pays
+Service Time	Faster	Normal waiting time
+3. Preceding Question Prompting
 
----
+### Prompt:
+"Why might my order be delayed? Explain how shipping partners affect delivery time."
 
-#### 📊 Analytical / Expansion Prompts
-- **Prompt:** “How can the chart provide more than just numbers?”  
-- **Generated Enhancements:**  
-  - Include **daily value percentages** (e.g., 15% of daily protein needs).  
-  - Add **health labels** like “Low Carb,” “Heart Healthy,” or “High Fiber.”  
-  - Group dishes by **category** (Starters, Mains, Desserts).  
-  - Show **comparisons** (this dish vs. average daily needs).  
-  - Provide **diet recommendations** (e.g., good for post-workout meals).  
+### ChatGPT:
+Order delays can occur due to stock availability, address verification, or courier backlogs. Shipping partners may experience delays due to traffic, bad weather, or overloaded logistics networks. These factors extend the delivery time beyond the expected date.
 
----
+### Gemini:
+Your order can be delayed because of sellers, packaging issues, or couriers. Delivery partners may face weather problems or longer routes, which slows down delivery.
 
-#### 🧩 Example Combined Prompt Workflow
-1. **Idea Prompt:** Generate list of essential columns for nutritional chart.  
-2. **Persona Prompt:** Adjust columns for user needs (diet-conscious, allergen-sensitive).  
-3. **Structural Prompt:** Format in table with aligned headers.  
-4. **Analytical Prompt:** Enrich table with health labels and dietary suitability. 
+### 4. Missing Word Prompting
 
----
+### Prompt:
+"If your order status shows ‘In Transit’, it means your package is currently ____."
+
+### ChatGPT:
+"on the way to your delivery address."
+
+### Gemini:
+"moving through the courier network."
 
 
+## **Evaluation Metrics (Accuracy & Efficiency)**  
 
-### 4. Output (Tabular Format)  
+| Prompt Type              | ChatGPT Accuracy                          | ChatGPT Efficiency          | Gemini Accuracy                       | Gemini Efficiency          |
+|---------------------------|-------------------------------------------|-----------------------------|---------------------------------------|-----------------------------|
+| Straightforward Prompts   | 5/5 (detailed, stepwise)                  | 4/5 (slightly wordy)        | 4/5 (less detail, but correct)        | 5/5 (short & quick)        |
+| Tabular Format Prompting  | 5/5 (well-structured, complete table)     | 4/5 (a bit longer to read)  | 4/5 (simpler, but missing detail)     | 5/5 (compact table)        |
+| Preceding Question Prompt | 5/5 (explains both causes + courier role) | 4/5 (slightly lengthy)      | 4/5 (correct but less explanation)    | 5/5 (concise)              |
+| Missing Word Prompting    | 5/5 (precise & customer-friendly)         | 5/5 (very efficient)        | 4/5 (correct but less natural wording)| 4/5 (less smooth)          |
 
-| 🍽️ Dish Name          | 🥗 Ingredients                                 | 🔥 Calories | 💪 Protein (g) | 🧈 Fat (g) | ⚠️ Allergen Info       |
-|------------------------|-----------------------------------------------|-------------|----------------|------------|-------------------------|
-| 🥗 Garden Fresh Salad  | Lettuce, Tomato, Cucumber, Olives, Olive Oil  | 150 kcal    | 4 g            | 7 g        | Contains Olives         |
-| 🍛 Paneer Butter Masala | Paneer, Tomato, Cream, Spices                | 350 kcal    | 12 g           | 20 g       | Dairy (Paneer, Cream)   |
-| 🌯 Chicken Wrap        | Chicken, Tortilla, Lettuce, Sauce            | 420 kcal    | 25 g           | 15 g       | Gluten (Tortilla)       |
-| 🍎 Apple Pie           | Apple, Flour, Butter, Sugar                   | 300 kcal    | 3 g            | 12 g       | Gluten, Dairy           |
-| 🥜 Peanut Energy Bar   | Peanuts, Oats, Honey                         | 250 kcal    | 8 g            | 10 g       | Contains Peanuts, Oats  |
 
----
+## **Result**  
 
-## Conclusion  
-The various types of prompts were successfully applied to generate the **Food Menu Nutritional Chart**.  
-The chart provides **clear, structured, and visually appealing nutritional information**, enabling customers to make **healthier food choices** while ensuring **safety through allergen awareness**.
-Result: The various types of Prompts are executed successfully with generated the report.
-
-<img width="1536" height="1024" alt="ChatGPT Image Sep 1, 2025, 08_55_11 PM" src="https://github.com/user-attachments/assets/61278019-57b5-4f71-b1ae-00fe49372453" />
-
-"The above figure represents the same nutritional chart in a more engaging and pictorial form for better readability and presentation."
-
-# Result: 
-Thus the Prompts were executed succcessfully.
+The experiment was successfully executed using four prompting techniques with ChatGPT and Gemini.  
+Both tools generated meaningful responses, and their performance was evaluated based on accuracy and efficiency.  
 
